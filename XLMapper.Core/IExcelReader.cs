@@ -1,4 +1,4 @@
-namespace XLLib;
+namespace XLMapper.Core;
 
 public interface IExcelReader
 {

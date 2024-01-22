@@ -1,9 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-using XLLib;
-using XLLib.Test;
-
+using XLMapper.Core;
+using XLMapper.Test;
 
 try
 {

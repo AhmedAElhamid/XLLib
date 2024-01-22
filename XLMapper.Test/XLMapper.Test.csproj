@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\XLLib\XLLib.csproj" />
+      <ProjectReference Include="..\XLMapper.Core\XLMapper.Core.csproj" />
     </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 using FastExcel;
 
-namespace XLLib;
+namespace XLMapper.Core;
 
 public class ExcelReader : IExcelReader
 {

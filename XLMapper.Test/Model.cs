@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace XLLib.Test;
+namespace XLMapper.Test;
 
 public class Model
 {

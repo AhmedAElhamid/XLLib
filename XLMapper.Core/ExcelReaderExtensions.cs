@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
-namespace XLLib;
+namespace XLMapper.Core;
 
 public static class ExcelReaderExtensions
 {

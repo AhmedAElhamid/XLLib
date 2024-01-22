@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLLib", "XLLib\XLLib.csproj", "{76878180-9D9C-4E8E-A04C-8DE7808362C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Core", "XLMapper.Core\XLMapper.Core.csproj", "{76878180-9D9C-4E8E-A04C-8DE7808362C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLLib.Test", "XLLib.Test\XLLib.Test.csproj", "{6D7A283C-DA17-4B94-9394-C6A23E4DA330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Test", "XLMapper.Test\XLMapper.Test.csproj", "{6D7A283C-DA17-4B94-9394-C6A23E4DA330}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
