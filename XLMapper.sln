@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Core", "XLMapper.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Test", "XLMapper.Test\XLMapper.Test.csproj", "{6D7A283C-DA17-4B94-9394-C6A23E4DA330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Provider.FastExcel", "XLMapper.Provider.FastExcel\XLMapper.Provider.FastExcel.csproj", "{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XLMapper.Providers", "XLMapper.Providers", "{D0411B4B-4C36-4A96-A6EA-F4426A387D96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{6D7A283C-DA17-4B94-9394-C6A23E4DA330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D7A283C-DA17-4B94-9394-C6A23E4DA330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D7A283C-DA17-4B94-9394-C6A23E4DA330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAF214D7-7B2F-453C-9CE6-7AF46D836F77} = {D0411B4B-4C36-4A96-A6EA-F4426A387D96}
 	EndGlobalSection
 EndGlobal

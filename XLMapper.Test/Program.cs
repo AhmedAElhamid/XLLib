@@ -2,12 +2,14 @@
 
 
 using XLMapper.Core;
+using XLMapper.Provider;
+using XLMapper.Provider.FastExcel;
 using XLMapper.Test;
 
 try
 {
-    IExcelReader excelReader = new ExcelReader();
-    var result = excelReader.Read<Model>("input.xlsx");
+    IExcelMapper excelMapper = new ExcelMapper(new WorksheetProvider());
+    var result = excelMapper.Map<Model>("input.xlsx");
     Console.WriteLine("Hello, World!");
 }
 catch (Exception e)

@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\XLMapper.Core\XLMapper.Core.csproj" />
+      <ProjectReference Include="..\XLMapper.Provider.FastExcel\XLMapper.Provider.FastExcel.csproj" />
     </ItemGroup>
 
 </Project>
