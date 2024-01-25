@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Core", "XLMapper.Core\XLMapper.Core.csproj", "{76878180-9D9C-4E8E-A04C-8DE7808362C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Test", "XLMapper.Test\XLMapper.Test.csproj", "{6D7A283C-DA17-4B94-9394-C6A23E4DA330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Demo", "XLMapper.Demo\XLMapper.Demo.csproj", "{6D7A283C-DA17-4B94-9394-C6A23E4DA330}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLMapper.Provider.FastExcel", "XLMapper.Provider.FastExcel\XLMapper.Provider.FastExcel.csproj", "{CAF214D7-7B2F-453C-9CE6-7AF46D836F77}"
 EndProject
