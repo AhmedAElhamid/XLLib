@@ -9,8 +9,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\XLMapper.Core\XLMapper.Core.csproj" />
-      <ProjectReference Include="..\XLMapper.Provider.FastExcel\XLMapper.Provider.FastExcel.csproj" />
+        <ProjectReference Include="..\XLMapper.Core\XLMapper.Core.csproj"/>
+        <ProjectReference Include="..\XLMapper.Provider.FastExcel\XLMapper.Provider.FastExcel.csproj"/>
     </ItemGroup>
+
+    <Target Name="CopyCustomContent" AfterTargets="AfterBuild">
+        <ItemGroup>
+            <Folder Include="**\wwwroot\**\*.*"/>
+        </ItemGroup>
+        <Copy SourceFiles="@(Folder)" DestinationFolder="$(OutDir)\%(RecursiveDir)"/>
+    </Target>
 
 </Project>

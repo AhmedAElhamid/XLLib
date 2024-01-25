@@ -2,19 +2,17 @@
 
 
 using XLMapper.Core;
-using XLMapper.Provider;
 using XLMapper.Provider.FastExcel;
 using XLMapper.Test;
 
 try
 {
-    IExcelMapper excelMapper = new ExcelMapper(new WorksheetProvider());
-    var result = excelMapper.Map<Model>("input.xlsx");
-    Console.WriteLine("Hello, World!");
+    var excelMapper = new ExcelMapper(new WorksheetProvider());
+    var result = excelMapper.Map<Model>(Path.Combine("wwwroot", "input.xlsx"));
+    Console.WriteLine(string.Join(Environment.NewLine, result));
 }
 catch (Exception e)
 {
     Console.WriteLine(e);
     throw;
 }
-
